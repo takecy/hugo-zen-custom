@@ -1,0 +1,7 @@
+{{ $url := .Get 0 }}
+{{ $title := .Get 1 }}
+<a href="{{ $url }}"}>
+  <img src="http://favicon.hatena.ne.jp/?url={{ $url }}" style="float:left;margin:5px 5px 0px 5px" />
+  {{ $title }}
+</a>
+<br/>
